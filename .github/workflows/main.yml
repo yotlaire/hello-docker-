@@ -15,12 +15,12 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v2
         with:
-          version: 7
+          version: 6.x
 
       - name: Setup Node.js environment
         uses: actions/setup-node@v3
         with:
-          node-version: 20.x  # Adjust the Node.js version as needed
+          node-version: 14.x  # Adjust the Node.js version as needed
 
       - name: Install Dependencies
         run: pnpm install --frozen-lockfile
