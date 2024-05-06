@@ -7,6 +7,7 @@
     "build": "tsc && cp src/index.html dist/index.html",
     "start": "node dist/index.js",
     "dev": "node dist/index.js" 
+    "test": "your-test-command"
   },
   "keywords": [],
   "author": "",
